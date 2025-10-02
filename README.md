@@ -22,7 +22,9 @@ Includes **JWT authentication with refresh tokens**, **role-based access control
 
 - **Auditing & Logging**
   - Entity auditing with timestamps  
-  - Error & exception handling layer  
+  - Error & exception handling layer
+ 
+
 
 ##  Tech Stack
 - **Java 17**  
@@ -34,5 +36,14 @@ Includes **JWT authentication with refresh tokens**, **role-based access control
 - **Build Tool:** Maven  
 - **Containerization:** Docker & Docker Compose  
 - **Mapping:** MapStruct (DTO ↔ Entity)  
-- **Other:** Lombok, SLF4J logging  
+- **Other:** Lombok, SLF4J logging
+
+
+##  Security Features
+- JWT Access (header) & Refresh (HttpOnly cookie)  
+- Token rotation & revocation (jti)  
+- JwtFilter + CookieHelper + SecurityFilterChain  
+- CSRF on refresh/logout (`XSRF-TOKEN`)  
+- Role-based access (User, Admin)  
+
 
