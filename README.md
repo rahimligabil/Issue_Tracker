@@ -3,7 +3,6 @@
 A **Spring Boot based Issue Tracking System** that provides secure and scalable management of projects, issues, and users.  
 Includes **JWT authentication with refresh tokens**, **role-based access control (RBAC)**, **pagination & filtering**, and **auditing features** for professional-grade backend applications.  
 
----
 
 ##  Features
 - **Authentication & Authorization**
@@ -24,8 +23,6 @@ Includes **JWT authentication with refresh tokens**, **role-based access control
 - **Auditing & Logging**
   - Entity auditing with timestamps  
   - Error & exception handling layer  
-
----
 
 ##  Tech Stack
 - **Java 17**  
