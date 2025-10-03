@@ -1,7 +1,7 @@
 #  IssueTracker
 
 A **Spring Boot based Issue Tracking System** that provides secure and scalable management of projects, issues, and users.  
-Includes **JWT authentication with refresh tokens**, **role-based access control (RBAC)**, **pagination & filtering**, and **auditing features** for professional-grade backend applications.  
+Includes **JWT authentication with refresh tokens**, **role-based access control (RBAC)**, **pagination & filtering**, and **auditing features** and  for professional-grade backend applications.  
 
 
 ##  Features
@@ -10,7 +10,8 @@ Includes **JWT authentication with refresh tokens**, **role-based access control
   - JWT Access + Refresh token flow  
   - HttpOnly Secure Cookies for refresh tokens  
   - CSRF protection on refresh/logout  
-  - Role-based permissions (User, Admin)  
+  - Role-based permissions (User, Admin)
+  - Relational Database
 
 - **Issue Management**
   - Create, update, delete issues  
